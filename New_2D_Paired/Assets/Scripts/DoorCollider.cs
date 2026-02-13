@@ -44,14 +44,15 @@ public class DoorCollider : MonoBehaviour
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
-{
-    if (collision.gameObject.CompareTag("Player"))
     {
-        if (sr.color == Color.green)
+        if (collision.gameObject.CompareTag("Player"))
         {
-            GameManager.Instance.LevelCleared();
+            if (isGreen)
+            {
+        GameManager.Instance.LevelCleared();
+            }
+
         }
     }
-}
 
 }

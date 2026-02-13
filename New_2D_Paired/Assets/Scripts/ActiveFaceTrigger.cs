@@ -12,8 +12,9 @@ public class ActiveFaceTrigger : MonoBehaviour
 
             if (rb != null)
             {
-                Vector2 direction = (other.transform.position - transform.position).normalized;
-                rb.AddForce(direction * pushForce, ForceMode2D.Impulse);
+                // Push in the face's right direction
+                Vector2 pushDirection = transform.right;
+                rb.AddForce(pushDirection * pushForce, ForceMode2D.Impulse);
             }
         }
     }
