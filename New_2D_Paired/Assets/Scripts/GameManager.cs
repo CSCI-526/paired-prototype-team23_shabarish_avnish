@@ -1,26 +1,21 @@
 using UnityEngine;
+using TMPro;   // if using TextMeshPro
 
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance;
 
-    public int totalWalls;
-    private int wallsHit = 0;
-
-    public DoorCollider door;
+    public GameObject winText;   // Drag UI text object here
 
     void Awake()
     {
         Instance = this;
+        winText.SetActive(false);
     }
 
-    public void RegisterWallHit()
+    public void LevelCleared()
     {
-        wallsHit++;
-
-        if (wallsHit >= totalWalls)
-        {
-            door.OpenDoor();
-        }
+        winText.SetActive(true);
+        Time.timeScale = 0f;  // freeze game
     }
 }

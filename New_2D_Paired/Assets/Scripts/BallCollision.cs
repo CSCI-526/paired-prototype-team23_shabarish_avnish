@@ -2,13 +2,13 @@ using UnityEngine;
 
 public class BallCollision : MonoBehaviour
 {
-    public DoorCollider door;   // Drag door here in Inspector
-
     void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Player"))
+        DoorCollider door = collision.gameObject.GetComponent<DoorCollider>();
+
+        if (door != null)
         {
-            door.OpenDoor();
+            door.ActivateGreen();
         }
     }
 }

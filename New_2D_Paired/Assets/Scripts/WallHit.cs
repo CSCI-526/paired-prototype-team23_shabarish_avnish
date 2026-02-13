@@ -9,7 +9,7 @@ public class WallHit : MonoBehaviour
         if (!hit)
         {
             hit = true;
-            GameManager.Instance.RegisterWallHit();
+            // GameManager.Instance.RegisterWallHit();
         }
     }
 }
