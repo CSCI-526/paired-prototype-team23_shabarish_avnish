@@ -1,31 +1,58 @@
-
 using UnityEngine;
+using System.Collections;
+
+
 
 public class DoorCollider : MonoBehaviour
 {
-    private Collider2D col;
     private SpriteRenderer sr;
-    private bool isOpen = false;
+
+    public float greenDuration = 10f;
+
+    private Color originalColor;
+    private bool isGreen = false;
+    private Coroutine greenRoutine;
 
     void Start()
     {
-        col = GetComponent<Collider2D>();
         sr = GetComponent<SpriteRenderer>();
+        originalColor = sr.color;
     }
 
-    void OnCollisionEnter2D(Collision2D collision)
+    public void ActivateGreen()
     {
-        if (!isOpen && collision.gameObject.CompareTag("Ball"))
+        if (greenRoutine != null)
+            StopCoroutine(greenRoutine);
+
+        greenRoutine = StartCoroutine(GreenTimer());
+    }
+
+    IEnumerator GreenTimer()
+    {
+        isGreen = true;
+        sr.color = Color.green;
+
+        yield return new WaitForSeconds(greenDuration);
+
+        sr.color = originalColor;
+        isGreen = false;
+    }
+
+    public bool IsGreen()
+    {
+        return isGreen;
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
         {
-            OpenDoor();
+            if (isGreen)
+            {
+        GameManager.Instance.LevelCleared();
+            }
+
         }
     }
 
-    public void OpenDoor()
-    {
-        isOpen = true;
-        col.enabled = false;      // Disable door collision
-        sr.color = Color.green;   // Change color
-    }
 }
-
