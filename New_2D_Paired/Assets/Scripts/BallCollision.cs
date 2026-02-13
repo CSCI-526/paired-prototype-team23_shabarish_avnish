@@ -1,19 +1,14 @@
 using UnityEngine;
 
-public class DoorController : MonoBehaviour
+public class BallCollision : MonoBehaviour
 {
-    private Collider2D col;
-    private SpriteRenderer sr;
+    public DoorCollider door;   // Drag door here in Inspector
 
-    void Start()
+    void OnCollisionEnter2D(Collision2D collision)
     {
-        col = GetComponent<Collider2D>();
-        sr = GetComponent<SpriteRenderer>();
-    }
-
-    public void OpenDoor()
-    {
-        col.enabled = false;
-        sr.color = Color.green;
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            door.OpenDoor();
+        }
     }
 }

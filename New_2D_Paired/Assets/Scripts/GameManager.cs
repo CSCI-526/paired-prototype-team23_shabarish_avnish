@@ -7,7 +7,7 @@ public class GameManager : MonoBehaviour
     public int totalWalls;
     private int wallsHit = 0;
 
-    public DoorController door;
+    public DoorCollider door;
 
     void Awake()
     {
