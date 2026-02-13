@@ -1,0 +1,101 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\avnis\\Documents\\GitHub\\paired-prototype-team23_shabarish_avnish\\New_2D_Paired\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{50B25568-7E87-BC81-FF87-D2889E219C69}|Assembly-CSharp.csproj|c:\\users\\avnis\\documents\\github\\paired-prototype-team23_shabarish_avnish\\new_2d_paired\\assets\\scripts\\doorcollider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50B25568-7E87-BC81-FF87-D2889E219C69}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\doorcollider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50B25568-7E87-BC81-FF87-D2889E219C69}|Assembly-CSharp.csproj|C:\\Users\\avnis\\Documents\\GitHub\\paired-prototype-team23_shabarish_avnish\\New_2D_Paired\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50B25568-7E87-BC81-FF87-D2889E219C69}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50B25568-7E87-BC81-FF87-D2889E219C69}|Assembly-CSharp.csproj|C:\\Users\\avnis\\Documents\\GitHub\\paired-prototype-team23_shabarish_avnish\\New_2D_Paired\\assets\\scripts\\ballcollision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50B25568-7E87-BC81-FF87-D2889E219C69}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ballcollision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50B25568-7E87-BC81-FF87-D2889E219C69}|Assembly-CSharp.csproj|C:\\Users\\avnis\\Documents\\GitHub\\paired-prototype-team23_shabarish_avnish\\New_2D_Paired\\assets\\scripts\\wallhit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50B25568-7E87-BC81-FF87-D2889E219C69}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\wallhit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50B25568-7E87-BC81-FF87-D2889E219C69}|Assembly-CSharp.csproj|C:\\Users\\avnis\\Documents\\GitHub\\paired-prototype-team23_shabarish_avnish\\New_2D_Paired\\assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50B25568-7E87-BC81-FF87-D2889E219C69}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DoorCollider.cs",
+              "DocumentMoniker": "C:\\Users\\avnis\\Documents\\GitHub\\paired-prototype-team23_shabarish_avnish\\New_2D_Paired\\Assets\\Scripts\\DoorCollider.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DoorCollider.cs",
+              "ToolTip": "C:\\Users\\avnis\\Documents\\GitHub\\paired-prototype-team23_shabarish_avnish\\New_2D_Paired\\Assets\\Scripts\\DoorCollider.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DoorCollider.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T23:51:28.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BallCollision.cs",
+              "DocumentMoniker": "C:\\Users\\avnis\\Documents\\GitHub\\paired-prototype-team23_shabarish_avnish\\New_2D_Paired\\Assets\\Scripts\\BallCollision.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\BallCollision.cs",
+              "ToolTip": "C:\\Users\\avnis\\Documents\\GitHub\\paired-prototype-team23_shabarish_avnish\\New_2D_Paired\\Assets\\Scripts\\BallCollision.cs",
+              "RelativeToolTip": "Assets\\Scripts\\BallCollision.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T23:41:47.203Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "C:\\Users\\avnis\\Documents\\GitHub\\paired-prototype-team23_shabarish_avnish\\New_2D_Paired\\Assets\\Scripts\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
+              "ToolTip": "C:\\Users\\avnis\\Documents\\GitHub\\paired-prototype-team23_shabarish_avnish\\New_2D_Paired\\Assets\\Scripts\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T23:39:55.044Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WallHit.cs",
+              "DocumentMoniker": "C:\\Users\\avnis\\Documents\\GitHub\\paired-prototype-team23_shabarish_avnish\\New_2D_Paired\\Assets\\Scripts\\WallHit.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\WallHit.cs",
+              "ToolTip": "C:\\Users\\avnis\\Documents\\GitHub\\paired-prototype-team23_shabarish_avnish\\New_2D_Paired\\Assets\\Scripts\\WallHit.cs",
+              "RelativeToolTip": "Assets\\Scripts\\WallHit.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T23:37:17.382Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PlayerMovement.cs",
+              "DocumentMoniker": "C:\\Users\\avnis\\Documents\\GitHub\\paired-prototype-team23_shabarish_avnish\\New_2D_Paired\\Assets\\Scripts\\PlayerMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMovement.cs",
+              "ToolTip": "C:\\Users\\avnis\\Documents\\GitHub\\paired-prototype-team23_shabarish_avnish\\New_2D_Paired\\Assets\\Scripts\\PlayerMovement.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerMovement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T23:23:24.086Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
